@@ -1,0 +1,79 @@
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+/* ok */
+body {
+    background-color: rgb(179,167,153)
+}
+/* ok */
+p {
+    color: rgb(255, 255, 255);
+}
+/* ок */
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+/* ок */
+.navbar-nav .nav-link.active {
+    color: rgb(60, 49, 37);
+} 
+/* ok */
+.container-fluid {
+    background-color: rgb(139,127,113)
+              
+}
+/* ок */
+.span {
+    color: rgb(255, 255, 255);
+}
+.navbar-brand {
+    color: rgb(255, 255, 255);
+}
+/* ok */
+.navbar-nav {
+    align-items: center;
+}
+/* ok */
+.w-100 {
+    width: 50%; /* Уменьшает изображение до 50% от ширины контейнера */
+    height: auto;
+}
+/* ok */
+.justified-text {
+    text-align: justify;
+    text-indent: 30px;
+}
+/* ok */
+.carousel-indicators {
+    padding-bottom: -10rem;
+}
+.sidebar {
+    text-align: center;
+    padding-top: 35px;
+}
+/* ok */
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+/* ok строка 755 убирает индикатор */
+.slyde-text,
+.footer-txt {
+    margin-top: 30px ;
+    margin-bottom: 20px;
+}
+/* ok  низ отступ MSV и текст описание */
+
+
+
+
+
+
+
+
+
+
+
